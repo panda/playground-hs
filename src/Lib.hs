@@ -48,3 +48,22 @@ Basic Functions/Types
 multOf3 :: Int -> Int
 multOf3 x = x * 3
 
+-- Infix (+) :: [a] -> [a] -> [a]
+addBy10 :: Int -> Int
+addBy10 a = (+) a 10
+
+divBy2 :: Int -> Int
+divBy2 a = a `div` 2
+
+-- Functions
+functionOne :: Int -> Int
+functionOne a = a + 2
+
+two :: Int
+two = 12
+
+three :: Int
+three = 
+    let one a = a + 2
+        two = 20
+    in one two
