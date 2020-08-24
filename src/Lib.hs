@@ -67,3 +67,12 @@ three =
     let one a = a + 2
         two = 20
     in one two
+
+whereFunc :: Int -> Int
+whereFunc c = fOne + fTwo
+    where
+        fOne :: Int --Types
+        fOne = 10 + c 
+
+        fTwo :: Int --Types
+        fTwo = 2
